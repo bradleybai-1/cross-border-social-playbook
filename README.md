@@ -3,8 +3,10 @@
 > 把 B2B 制造企业的「我们也要做出海社媒」变成两份**明天就能开工**的文档：
 > **一份运营方案**（做什么）+ **一份配套视频脚本**（怎么拍）。
 
-一个给 Claude Code / Codex / OpenClaw 等 AI 编程助手用的 **skill**（技能包）。
+一个给 Claude Code / Codex / OpenClaw / WorkBuddy 等 AI 助手用的 **skill**（技能包）。
 不是提示词模板，是一套带硬红线、按需加载的知识体系 + 自检清单。
+
+不需要写代码。图形界面能装，命令行也能装，下面两种都写了。
 
 ---
 
@@ -49,6 +51,27 @@ cp -r cross-border-social-playbook ~/.openclaw/workspace/skills/
 ```
 
 单个项目内使用时，放到项目根目录的 `.claude/skills/`、`.agents/skills/` 即可。
+
+### WorkBuddy（图文界面，不需要命令行）
+
+1. 在本页面点绿色的 **Code** 按钮 → **Download ZIP**
+2. 解压。会得到一个 `cross-border-social-playbook-main` 文件夹
+3. **进去这个文件夹**，确认里面能直接看到 `SKILL.md`（不是再套一层同名文件夹）
+4. 打开 WorkBuddy → 左侧栏 **技能** → **导入** / **新建技能** → 选本地文件夹或 zip
+5. 技能名填 `cross-border-social-playbook`，描述可以直接复制本仓库顶部那句话
+6. 启用后**新开一个对话**，说：「帮我给一家做铝型材的公司出一份出海社媒方案」
+
+> 想省掉第 2、3 步，可以到 [Releases](../../releases) 下载打包好的 zip，解压后文件夹名不带 `-main` 后缀。
+>
+> WorkBuddy 各版本的导入入口文字略有差异（有的叫「导入」，有的叫「添加技能」）。如果你的界面跟上面不一样，欢迎提 issue 告诉我具体位置，我补进说明。
+
+### 我该选哪个
+
+| 你用的是 | 走哪条路 |
+|---|---|
+| 终端 / 命令行工具（Claude Code、Codex、OpenClaw） | 上面三条 bash 命令，任选一条 |
+| 桌面客户端（WorkBuddy 等） | WorkBuddy 那节，点鼠标就行 |
+| 不确定 | 先用 WorkBuddy 那节的方式下载下来，看到 `SKILL.md` 就说明包是对的 |
 
 ---
 
