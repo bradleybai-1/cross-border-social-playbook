@@ -76,14 +76,14 @@ cp -r cross-border-social-playbook ~/.openclaw/workspace/skills/
 
 | 文件 | 作用 |
 |---|---|
-| `SKILL.md` | 入口。10 条硬红线、输入追问、路径判定、四步法主流程（含诊断后强制确认闸门）、按需加载导航、18 项自检清单 |
+| `SKILL.md` | 入口。10 条硬红线、输入追问、路径判定、四步法主流程（含诊断后强制确认闸门）、按需加载导航、33 项自检清单 |
 | `references/01-diagnosis.md` | 诊断章写作法：账号体检（含 C 端变体）、数据解读、问题诊断十二维度、核心矛盾公式 |
 | `references/02-platforms.md` | 八个平台（Facebook / Instagram / TikTok / YouTube / LinkedIn / X / VK / Threads）各自的机制、独有打法、禁忌 |
 | `references/03-zero-to-one.md` | 零到一建号：运营环境、开号顺序、主页装修、养号节奏、内容资产包 |
 | `references/04-content-system.md` | 规划章：平台分工、内容占比、首月日历、时区换算表、存量账号整改规则 |
 | `references/05-production.md` | 生产：首批内容清单、逐秒分镜模板、拍摄 SOP、图卡母版 |
 | `references/06-output.md` | 输出契约：完整方案骨架、附录 A–F 标准、风险章（含商标/兼容件边界）、语言风格 |
-| `references/07-video-scripts.md` | **第二份交付物**：配套视频脚本方案的七节骨架、9 个固定字段、分镜七条写法规则、一源多剪表、发布 Checklist |
+| `references/07-video-scripts.md` | **第二份交付物**：配套视频脚本方案的七节骨架、9 个固定字段 + 轮播模板、分镜七条写法规则、一源多剪表、待素材简表、发布 Checklist |
 | `examples/01-通用B2B骨架.md` | 一个完整方案骨架示例（虚构行业，无客户信息） |
 | `examples/02-单条脚本完整示例.md` | 两个完整脚本模板：参数证据型 + 工艺 ASMR 型（虚构品牌） |
 | `CHANGELOG.md` | 版本变更记录 |

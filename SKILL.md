@@ -3,7 +3,7 @@ name: cross-border-social-playbook
 description: 为出海 B2B 制造/贸易企业生成可执行的海外社媒运营方案。当用户要求"出一份出海社媒方案""我们行业怎么做 TikTok / Facebook / YouTube""帮我做海外社媒内容规划""账号没流量怎么救"时使用。按诊断 → 规划 → 落地 → 复盘四步走，产出两份交付物：完整运营方案（账号体检、客户画像、平台分工、首月内容日历、逐平台打法、首批内容明细与拍摄 SOP）与配套的逐秒分镜视频脚本方案。所有账号数据必须标明来源，缺失处标注待确认，不编造。
 license: CC-BY-4.0
 metadata:
-  version: 0.3.5
+  version: 0.3.6
   language: zh-CN
 ---
 
